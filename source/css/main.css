@@ -13,3 +13,10 @@
 #pycomo-title a:active {
     text-decoration: none;
 }
+
+#presentations-list a:link,
+#presentations-list a:visited,
+#presentations-list a:hover,
+#presentations-list a:active {
+    text-decoration: underline;
+}

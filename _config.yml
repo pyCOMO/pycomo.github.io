@@ -6,4 +6,4 @@ version: 1.0.0
 markdown: rdiscount
 permalink: pretty
 pygments: true
-paginate: 5
+source: source

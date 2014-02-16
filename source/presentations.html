@@ -1,0 +1,26 @@
+---
+layout: default
+title: Presentations
+---
+<h1>Past Presentations</h1>
+
+<div id="presentations-list">
+    <dl>
+    {% for post in site.posts %}
+        <dt>
+            <a href="{{ post.url }}">{{ post.title }}</a>: {{ post.date | date: "%-d %B %Y" }}
+        </dt>
+
+        <dd>
+            {% if post.subtitle %}
+                <p> {{ post.subtitle }} </p>
+            {% endif %}
+
+            {% if post.tags %}
+                <p>{{ post.tags | array_to_sentence_string }}</p>
+            {% endif %}
+        </dd>
+
+    {% endfor %}
+    </dl>
+</div>

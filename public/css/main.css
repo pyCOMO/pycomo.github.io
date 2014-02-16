@@ -1,0 +1,15 @@
+#pycomo-title {
+    text-align:center;
+}
+
+#pycomo-title p {
+    font-size:70px;
+    font-family:cuprum;
+}
+
+#pycomo-title a:link,
+#pycomo-title a:visited, 
+#pycomo-title a:hover,
+#pycomo-title a:active {
+    text-decoration: none;
+}

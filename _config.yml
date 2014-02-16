@@ -1,3 +1,9 @@
-name: Your New Jekyll Site
-markdown: redcarpet
+title: PyCOMO
+url: http://pycomo.org
+author: pyCOMO
+email: info@pycomo.org
+version: 1.0.0
+markdown: rdiscount
+permalink: pretty
 pygments: true
+paginate: 5

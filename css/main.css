@@ -14,9 +14,13 @@
     text-decoration: none;
 }
 
-#presentations-list a:link,
-#presentations-list a:visited,
-#presentations-list a:hover,
-#presentations-list a:active {
+#page a:link,
+#page a:visited,
+#page a:hover,
+#page a:active {
     text-decoration: underline;
+}
+
+#page ul {
+    list-style-type: none;
 }

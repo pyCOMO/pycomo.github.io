@@ -12,4 +12,4 @@ The second presentation will review the current state of Python packaging; the g
 
 We'll wrap up by taking a peek at the future of Python packaging.
 
-[Packagin presentation slides](/presentation_resources/python_packaging/index.html)
+[Packaging presentation slides](/presentation_resources/python_packaging/index.html)

@@ -12,4 +12,5 @@ The second presentation will review the current state of Python packaging; the g
 
 We'll wrap up by taking a peek at the future of Python packaging.
 
+[virtualenv presentation slides](https://docs.google.com/presentation/d/1nNNqjU6Fla2EZYV6KiN5Ae6jl0fTDPxsb2awdt_kOBU/pub?start=false&loop=false&delayms=3000)
 [Packaging presentation slides](/presentation_resources/python_packaging/index.html)

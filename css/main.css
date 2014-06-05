@@ -24,3 +24,34 @@
 #page ul {
     list-style-type: none;
 }
+
+#join-pycomo-meetup {
+    margin-top:50px;
+}
+
+#join-pycomo-meetup h1 {
+    color: rgb(217, 83, 79);
+    font-weight:bold;
+    font-size:1.2em;
+}
+
+#join-pycomo-meetup p {
+    font-size:.8em;
+}
+
+#join-pycomo-meetup a {
+    margin-top:20px;
+}
+
+a {
+    text-decoration:underline;
+    color: #069;
+}
+
+header a {
+    text-decoration:none;
+}
+
+dt {
+    margin-top:30px;
+}

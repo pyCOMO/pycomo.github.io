@@ -1,17 +1,17 @@
 ---
 layout: default
-title: Presentations
+title: Past Presentations
 ---
-<h1>Presentations</h1>
+<h1>Past Presentations</h1>
 
 <div id="presentations-list">
-    <p>If you're interested in presenting, leave a comment on our <a href="https://docs.google.com/spreadsheets/d/1DUPWqnWxIgHowiYzuBIUioc44dQ0R0iMha-1HH0e8Wg/edit?usp=sharing">google drive</a>, or email me at pycomo-at-dougroyal.com</p>
+    <p class="well well-sm">If you're interested in presenting, email me at pycomo-at-dougroyal.com</p>
     <dl>
     {% for post in site.posts %}
         <dt>
-            <a href="{{ post.url }}">{{ post.title }}</a>: {{ post.date | date: "%-d %B %Y" }}
+            <span class="glyphicon glyphicon-calendar"></span>
+            <a class="link" href="{{ post.url }}">{{ post.title }}</a>: {{ post.date | date: "%-d %B %Y" }}
         </dt>
-
         <dd>
             {% if post.subtitle %}
                 <p> {{ post.subtitle }} </p>
@@ -21,7 +21,6 @@ title: Presentations
                 <p>{{ post.tags | array_to_sentence_string }}</p>
             {% endif %}
         </dd>
-
     {% endfor %}
     </dl>
 </div>
